@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Allocation Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Memory Allocation Simulator</h1>
+
+  <div class="container">
+    <h3>Add Memory Blocks</h3>
+    <label for="blockSize">Enter Block Size (in K):</label>
+    <input type="number" id="blockSize" placeholder="Enter block size e.g. 50" />
+    <button onclick="addBlock()">Add Block</button>
+
+    <table id="blockTable">
+      <tr><th>Memory Location</th><th>Block Size</th></tr>
+    </table>
+    <hr>
+
+   
+    <label for="method">Select Allocation Type:</label>
+    <select id="method">
+      <option value="first">First Fit</option>
+      <option value="best">Best Fit</option>
+    </select><br />
+
+    <label for="jobSize">Enter Job Size (in K):</label>
+    <input type="number" id="jobSize" placeholder="Enter size e.g. 10" />
+    <button onclick="addJob()">Add Job</button>
+    <button onclick="runSimulation()">Run Allocation</button>
+    <button onclick="resetSimulation()">Reset</button>
+
+    <div class="result">
+      <h3>Job List</h3>
+      <table id="jobTable">
+        <tr><th>Job Number</th><th>Memory Requested</th></tr>
+      </table>
+
+      <h3>Memory Allocation Result</h3>
+      <table id="memoryTable">
+        <tr>
+          <th>Memory Location</th>
+          <th>Block Size</th>
+          <th>Job Number</th>
+          <th>Job Size</th>
+          <th>Status</th>
+          <th>Internal Fragmentation</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <button id="Logout" onclick="logout()">Proceed</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="Tittle">
+        <div id ="Name">
+        <h1>Memory Allocation System</h1>
+        <h2>Group Members:</h2>
+        <h4>Mel Joseph T. Velasco</h4>
+        <h4>Edrei Rome Barroga</h4>
+        <h4>Jomer Dellosa</h4>
+        <h4>Janus Aidan Franada</h4>
+        <h4>Mharkie Rosales</h4>
+        </div>
+    </div>
+    <h2>LOGIN FORM</h2>
+<form onsubmit="return validateLogin(event)">
+    <label for="email"> </label>
+        <input type="text" id="email" placeholder="Enter your email: ">
+        <br>
+        <label for= "password"> </label>
+        <input type="password" id= "password" placeholder="Enter your password">
+        <br><br>
+        <div id="Login"> <button type= "submit">Login</button></div>
+       
+</form>
+
+<script src="login.js" defer></script>
+</body>
+</html>

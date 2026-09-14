@@ -1,0 +1,78 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #f8ede3, #dfd3c3);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url("Luffy.jpg") center top ;
+  backdrop-filter: blur(1px);
+  background-size: cover;
+}
+
+h1 {
+  background: #ad8b73;
+  color: white;
+  padding: 15px 0;
+  margin: 0;
+  border-bottom: 4px solid #ceab93;
+}
+
+.container {
+  margin: 30px auto;
+  width: 80%;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  backdrop-filter: blur(3px);
+  opacity: 1px;
+  }
+
+label, select, input, button {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #ceab93;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: url("Mb.jpg") no-repeat center;
+  background-size: cover;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  background: peachpuff;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #bbb;
+}
+
+th {
+  background: #ad8b73;
+  color: white;
+  
+}
+td{
+  color: black;
+  font: bolder;
+}
+
+
+.result {
+  margin-top: 25px;
+  text-align: left;
+}

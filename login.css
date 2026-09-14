@@ -1,0 +1,73 @@
+body{
+    font-family: 'monospace', monospace, monospace;
+    background-color: peachpuff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    background: url('Nakama.jpg') no-repeat center;
+    background-size: cover;
+}
+h1{
+    font-size: 28px;
+}
+h4{
+    text-align: justify left;
+    padding: 0.1px;
+    font-size: small;
+    margin: 0.5px;
+    
+}
+form{
+    background: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: solid black;
+    width: 300px;
+    backdrop-filter: blur(2px);
+    opacity: blur(20px);
+
+}
+#Tittle{
+    text-align: top;
+}
+h2{
+    color: red;
+    margin-bottom: 25px;
+    margin-bottom: auto;
+    text-align: justify left;
+}
+label{
+    display: block;
+    margin-top: auto;
+    color: red;
+    font-weight: 500;
+    opacity: 500px;
+}
+input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid bisque;
+    border-radius: 10px;
+    transition: border-color 0.2;
+}
+input-focus{
+    border-color: aquamarine;
+}
+button{
+    margin-top: auto;
+    width: auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 16px;
+    background: url('hat.jpg') no-repeat center;
+    background-size: cover;
+    transition: 0.3s;
+}
+#Login :hover{
+    background: url("Mb.jpg") no-repeat center;
+    background-size: cover;
+}
